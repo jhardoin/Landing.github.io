@@ -2392,6 +2392,18 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+
+			}
+
+			.image.fit.headshot img {
+				width: 60%
+
+			}
+
+			.center-container .image.fit.headshot{
+				display: flex;
+				align-items: center;
+				justify-content: center;
 			}
 
 /* List */
@@ -3109,7 +3121,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 4em 0 4em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3224,6 +3236,7 @@ input, select, textarea {
 					padding: 0;
 				}
 
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -3295,6 +3308,7 @@ input, select, textarea {
 				padding: 4em 0 4em 0 ;
 				background-attachment: scroll;
 			}
+
 
 	}
 
